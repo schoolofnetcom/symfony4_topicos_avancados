@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+cms:
+    resource: "@CmsBundle"
+    type: annotation
+    prefix: /cms
